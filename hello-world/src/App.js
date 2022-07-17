@@ -8,11 +8,14 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className='App'>
-      <Greet name='world' />
-      <Greet name='Earth' />
-      <Greet name='React' />
-      {/* <Welcome /> */}
-      {/* <Hello /> */}
+      <Greet name='the world' type='people' />
+      <Greet name='Earth' type='earthlings' />
+      <Greet name='React' type='reactors' />
+      <Greet name='parent' type='children'>
+        <p>This is the result of props.children</p>
+      </Greet>
+      <Welcome />
+      <Hello />
     </div>
   );
 }
