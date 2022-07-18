@@ -24,6 +24,8 @@ function App() {
       <Hello /> */}
 
       {/* <Message /> */}
+      <Greet name='Earth' type='earthlings' />
+      <Welcome name='the world' type='people' />
 
       <Counter />
     </div>
