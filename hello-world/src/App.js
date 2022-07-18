@@ -8,6 +8,7 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
@@ -29,8 +30,9 @@ function App() {
       {/* <Greet name='Earth' type='earthlings' /> */}
       {/* <Welcome name='the world' type='people' /> */}
       {/* <Counter /> */}
-      <FunctionClick />
-      <ClassClick />
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
+      <EventBind />
     </div>
   );
 }
